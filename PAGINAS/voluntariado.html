@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voluntariado</title>
+    <link rel="shortcut icon" href="../FAVICON.jpg">
+    <link rel="stylesheet" href="../CSS/estilosnuevo.css">
+</head>
+<body class="container-body">
+    <header class="container">
+        <a class="foto__mundial" href="../index.html"><img src="../CSS/IMAGENES/MUNDIAL 2022.jpg" alt="logo" width="160"></a>            
+          <nav class="cabecera__nav">
+              <a class="cabecera__nav__link" href="./voluntariado.html">Voluntariados</a>
+              <a class="cabecera__nav__link" href="./masinfo.html">Mas informacion</a>
+              <a class="cabecera__nav__link" href="./entradas.html">Entradas</a>
+              <a class="cabecera__nav__link" href="../index.html">Incio</a>
+              <a class="cabecera__nav__link" href="./mejorjugador.html">Messi</a>
+              <a class="cabecera__nav__link" href="https://www.fifa.com/es" target="_blank">Fifa</a>
+              <!--utilice el target solo en el enlace de fifa ya que en los demas me puedo mover
+              con los enlaces del header,excepto en el enlace fifa-->
+          </nav>
+ </header>
+    <br>
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <div>
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Apellido">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="email" placeholder="Ingrese su mail">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="password" placeholder="Ingrese su contraseña">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="text" placeholder="Nacionalidad">
+                        <input type="text" placeholder="Tipo de visa">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Acepto terminos y condiciones</label>
+                        <input type="checkbox" value="1" name="Acepta">
+                        <label for="">Acepto que todos los datos son feacientes</label>
+                        <input type="checkbox" value="1" name="Acepta">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Idioma">Idioma nativo</label>
+                        <select name="Idioma" id="">
+                            <option value="E">Español</option>
+                            <option value="I">Ingles</option>
+                            <option value="P">portugues</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Voluntariados">Elija su preferencia</label>
+                        <label for="Voluntariado de seguridad">Voluntariado de seguridad</label>
+                        <input type="radio" value="1" name="Voluntariado" id="Voluntariado de seguridad">
+                        <label for="Voluntariado de limpieza">Voluntariado de limpieza</label>
+                        <input type="radio" value="1" name="Voluntariado" id="Voluntariado de limpieza">
+                        <label for="Voluntariado de alcanzapelotas">Voluntariado de seguridad</label>
+                        <input type="radio" value="1" name="Voluntariado" id="Voluntariado de alcanzapelotas">
+
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Aceptar">
+                        <input type="submit" value="Limpiar">
+                    </div>                     
+                </fieldset>
+            </form>
+            <!--no le agrego otro atributo aun ya que no voy a mandar la info a ningun lugar-->
+        </section>
+    </main>
+    <br>
+    <section class="section__footer">
+        <footer class="container-footer">
+          <p class="footer__texto">Todos los derechos reservados</p>
+          <p class="footer__texto"><a href="./masinfo.html">Soporte tecnico</a></p>
+          <p class="footer__texto"><a href="./masinfo.html">Recomendaciones</a></p>
+        </footer>
+      <br>   
+        <p class="footer__2"><img src="../CSS/IMAGENES/FIFA.png" alt="" height="150px"></p>
+      </section>
+</body>
+</html>

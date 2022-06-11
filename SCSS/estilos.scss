@@ -1,0 +1,234 @@
+*{box-sizing: border-box;
+    
+}
+
+.container {
+    background-image: url(./IMAGENES/IMAGEN\ DE\ FONDO\ 2.jpg);
+    width: 100%;
+    height: 50%;
+    margin: auto;
+    overflow: auto;
+    padding: 5px;
+    border: solid 5px;
+    border-color: rgb(255, 51, 0);
+    position: sticky;
+    top: 0px;   
+}
+@media (max-width:768px) {
+    .cabecera {
+        height: 35vh;
+        width: 210vh;
+    }
+}
+.foto__mundial {
+    margin: 44%;
+    box-sizing: border-box;
+  
+    
+    
+}
+.cabecera__nav {
+    display: block;
+    text-align: center;
+    
+}
+.container-main {
+    background-image: url(./IMAGENES/FONDO\ DEFINITIVO.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 5px;
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    grid-template-columns: repeat(3,1fr);
+    
+}  
+@media (max-width:768px) {
+    .container-main {
+        height: 400px;
+        width: 1400px;
+        display: inline;
+    }
+}
+
+.foto__maradona {  
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 95%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px;
+    border: solid 5px;
+    animation-name: efectos;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+@keyframes efectos {
+   0% {width: 75%;}
+   25% {width: 75%;}
+   50% { width: 80%;}
+   75% {width: 90%;}
+   100% {width: 95%;}
+}
+.foto__maradona__titulo {
+    text-align: center;
+}
+
+.imagen__qatar2022 {
+    text-align: center;
+}
+
+.fases__del__mundial {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 95%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px;
+    border: solid 5px; 
+    animation-name: efectos;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 2s;
+     
+}
+
+.fases__del__mundial__titulo {
+    text-align: center;
+}
+.estadios {
+    background-color: rgba(241, 240, 247, 0.301);
+    width: 85%;
+    height: 95%;
+    bottom: 8px;
+    margin-top: 5px;
+    margin: auto;
+    padding: 5px;
+    border: solid 5px; 
+    animation-name: efectos;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-delay: 2s;  
+}
+.estadios__titulo {
+    text-align: center;
+}
+.chat {
+    background-color: rgb(204, 197, 197);
+    border: solid 5px;
+    margin: 1px;
+    position: fixed;
+    bottom: 9px;
+    right: 0px;
+}
+
+.imagen__publicidad__footer {
+    background-image: url(./IMAGENES/FONDO\ PUBLICIDAD.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: solid 5px;
+    height: 90vh;  
+    transition: background-image 3s;  
+}
+.imagen__publicidad__footer:hover{
+   background-image: url(./IMAGENES/IMAGEN\ DE\ VUELO.jpg);
+   
+   
+}
+.publicidad {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: solid 5px;
+    
+}
+.publicidad__2 {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 5px;
+    border: solid 5px;
+}
+.publicidad__link {
+    width: 60%;
+    height:50%;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+}
+.publicidad__imagen {
+    margin: auto;
+    box-sizing: border-box; 
+    text-align: center;  
+}
+@media (max-width:768px) {
+    .publicidad__imagen {
+        width: 1%;
+        height: 10%;
+        margin-left: 1px;
+    }
+}
+.publicidad__texto {  
+   text-align: center;
+   
+}
+.section__footer {
+    background-image: url(./IMAGENES/FONDO\ AESTETIC.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    border: solid 2px ;
+    grid-template-rows: 10px 10px;
+    
+}
+.container-footer {
+    background-image: url(./IMAGENES/IMAGEN\ FOOTER.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 50%;
+    margin: 1%;
+    overflow: auto;
+    padding: 5px;
+    border: solid 5px;
+}
+.footer__texto  {
+  text-align: center;
+}
+.footer__2 {
+    width: 50%;
+    height: 40%;
+    margin: 1%;
+    text-align: center;
+    
+    
+}
+.messi {
+    background-image: url(./IMAGENES/FONDO\ DE\ MESSI.jpg);
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 5px;
+    border: solid 5px;
+}
+.messi__titulo {
+    text-align: center;
+}
+.messi__imagen {
+    margin-left: 20%;
+    margin-right: 50%;
+}
