@@ -82,19 +82,7 @@
 }
 
 .fases__del__mundial {
-    background-color: rgba(241, 240, 247, 0.301);
-    width: 85%;
-    height: 95%;
-    bottom: 8px;
-    margin-top: 5px;
-    margin: auto;
-    padding: 5px;
-    border: solid 5px; 
-    animation-name: efectos;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-    animation-delay: 2s;
+  @extend.foto__maradona
      
 }
 
@@ -102,19 +90,7 @@
     text-align: center;
 }
 .estadios {
-    background-color: rgba(241, 240, 247, 0.301);
-    width: 85%;
-    height: 95%;
-    bottom: 8px;
-    margin-top: 5px;
-    margin: auto;
-    padding: 5px;
-    border: solid 5px; 
-    animation-name: efectos;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-    animation-delay: 2s;  
+   @extend.foto__maradona 
 }
 .estadios__titulo {
     text-align: center;
@@ -154,10 +130,13 @@
 .publicidad__2 {
     width: 50%;
     height: 50%;
-    margin: auto;
+    margin: map-get($map-get,centro);
     padding: 5px;
-    border: solid 5px;
+    border: map-get($map-get, color);
 }
+@import url(variables.scss);
+
+
 .publicidad__link {
     width: 60%;
     height:50%;
